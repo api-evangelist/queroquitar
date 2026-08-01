@@ -1,7 +1,24 @@
 aid: queroquitar
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/queroquitar.png
 name: QueroQuitar
-description: QueroQuitar is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: QueroQuitar is a Brazilian fintech platform that helps consumers and businesses
+  renegotiate and settle overdue debts online. Through its web and mobile apps it connects
+  users with 50+ creditors (including Santander, Claro, Sky, BV, Inter and Carrefour)
+  to arrange discounted, installment-based payoffs, and participates in Brazil's Desenrola
+  Brasil program. It also offers QueroCredito credit products and QueroSaude health services.
+  It is a portfolio company of 500 Global. As of this enrichment pass QueroQuitar exposes
+  no public developer API, SDK, or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/queroquitar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Fintech
+- Debt Negotiation
+- Debt Settlement
+- Financial Services
+- Consumer Finance
+- Brazil
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +46,18 @@ maintainers:
 common:
 - type: Website
   url: https://queroquitar.com.br
+- type: Support
+  url: https://queroquitar.com.br/ajuda/
+- type: Blog
+  url: https://queroquitar.com.br/blog/
+- type: TermsOfService
+  url: https://queroquitar.com.br/termos-de-uso/
+- type: PrivacyPolicy
+  url: https://queroquitar.com.br/politica-de-privacidade/
+- type: DomainSecurity
+  url: security/queroquitar-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
