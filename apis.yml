@@ -45,7 +45,7 @@ tags:
 - Fintech
 - Debt Negotiation
 - Debt Settlement
-- Financial-Services
+- Financial Services
 - Consumer Finance
 - Brazil
 tags_raw:
@@ -56,6 +56,7 @@ tags_raw:
 - Financial Services
 - Consumer Finance
 - Brazil
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
